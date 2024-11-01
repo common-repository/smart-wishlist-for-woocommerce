@@ -1,0 +1,422 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Wishlist For WooCommerce-1.0.0\n"
+"POT-Creation-Date: 2024-01-27 14:29+0530\n"
+"PO-Revision-Date: 2023-07-08 12:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: Technisk Era\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-tesw-admin.php:99
+msgid "Wishlist Plugin"
+msgstr ""
+
+#: admin/class-tesw-admin.php:101
+msgid "Smart Wishlist"
+msgstr ""
+
+#: admin/class-tesw-admin.php:151
+msgid "Enable Wishlist Button"
+msgstr ""
+
+#: admin/class-tesw-admin.php:152
+msgid "Display \"Add to Wishlist\" Button on Product Page"
+msgstr ""
+
+#: admin/class-tesw-admin.php:153
+msgid "Display Style for \"Add to Wishlist\" Button"
+msgstr ""
+
+#: admin/class-tesw-admin.php:154
+msgid "Customize \"Add To Wishlist\" Text"
+msgstr ""
+
+#: admin/class-tesw-admin.php:155
+msgid "Select Wishlist Page"
+msgstr ""
+
+#: admin/class-tesw-admin.php:161
+msgid "View button type options"
+msgstr ""
+
+#: admin/class-tesw-admin.php:162
+msgid "Customise \"View wishlist\" Text"
+msgstr ""
+
+#: admin/class-tesw-admin.php:163
+msgid "Customise \"Add to Wishlist\" Icon"
+msgstr ""
+
+#: admin/class-tesw-admin.php:169
+msgid "Wishlist Table Columns"
+msgstr ""
+
+#: admin/class-tesw-admin.php:175
+msgid "Enable Social Sharing"
+msgstr ""
+
+#: admin/class-tesw-admin.php:176
+msgid "Select Social Networks"
+msgstr ""
+
+#: admin/class-tesw-admin.php:177
+msgid "Show Social Network Icons"
+msgstr ""
+
+#: admin/class-tesw-admin.php:182
+msgid "Enable Custom CSS"
+msgstr ""
+
+#: admin/class-tesw-admin.php:183
+msgid "Change Button Radius"
+msgstr ""
+
+#: admin/class-tesw-admin.php:184
+msgid "Change Button Color"
+msgstr ""
+
+#: admin/class-tesw-admin.php:185
+msgid "Change Font Color"
+msgstr ""
+
+#: admin/class-tesw-admin.php:186
+msgid "Change Button Font Size"
+msgstr ""
+
+#: admin/class-tesw-admin.php:187
+msgid "Change Button Font Style"
+msgstr ""
+
+#: admin/class-tesw-admin.php:262
+msgid "Show \"Add To Wishlist\" Button"
+msgstr ""
+
+#: admin/class-tesw-admin.php:267
+msgid "Show \"Add To Wishlist\" Icon"
+msgstr ""
+
+#: admin/class-tesw-admin.php:272
+msgid "Show \"Add To Wishlist\" Icon and Text Both"
+msgstr ""
+
+#: admin/class-tesw-admin.php:362
+msgid "No pages found."
+msgstr ""
+
+#: admin/class-tesw-admin.php:369
+#, php-format
+msgid ""
+"If you want to create a new page, %s and add the Shortcode "
+"[tesw_smart_wishlist]."
+msgstr ""
+
+#: admin/class-tesw-admin.php:370
+msgid "Click Here"
+msgstr ""
+
+#: admin/class-tesw-admin.php:415
+msgid "Show \"View Wishlist\" Button"
+msgstr ""
+
+#: admin/class-tesw-admin.php:417
+msgid "Show \"View Wishlist\" Icon"
+msgstr ""
+
+#: admin/class-tesw-admin.php:451
+msgid ""
+"Enter the Font Awesome class for the icon to be displayed on the \"Add to "
+"Wishlist\" button. Only Font Awesome 4 & 5 classes are allowed (e.g., fa fa-"
+"heart, fas fa-heart)."
+msgstr ""
+
+#: admin/class-tesw-admin.php:481 public/class-tesw-public.php:607
+msgid "Product Variations"
+msgstr ""
+
+#: admin/class-tesw-admin.php:482 public/class-tesw-public.php:612
+msgid "Product Stock"
+msgstr ""
+
+#: admin/class-tesw-admin.php:483 public/class-tesw-public.php:617
+msgid "Date Added"
+msgstr ""
+
+#: admin/class-tesw-admin.php:547 public/class-tesw-public.php:721
+msgid "WhatsApp"
+msgstr ""
+
+#: admin/class-tesw-admin.php:548 public/class-tesw-public.php:736
+msgid "Gmail"
+msgstr ""
+
+#: admin/class-tesw-admin.php:549 public/class-tesw-public.php:744
+msgid "Pinterest"
+msgstr ""
+
+#: admin/class-tesw-admin.php:550 public/class-tesw-public.php:752
+msgid "Twitter"
+msgstr ""
+
+#: admin/class-tesw-admin.php:551 public/class-tesw-public.php:761
+msgid "Copy Link"
+msgstr ""
+
+#: admin/class-tesw-admin.php:661
+msgid "Enable Button Color Change"
+msgstr ""
+
+#: admin/class-tesw-admin.php:686
+msgid "Enable Text Color Change"
+msgstr ""
+
+#: admin/class-tesw-admin.php:731
+msgid "Normal"
+msgstr ""
+
+#: admin/class-tesw-admin.php:732
+msgid "Italic"
+msgstr ""
+
+#: admin/class-tesw-admin.php:733
+msgid "Oblique"
+msgstr ""
+
+#: admin/class-tesw-admin.php:775
+msgid "Welcome to Smart Wishlist for WooCommerce"
+msgstr ""
+
+#: admin/class-tesw-admin.php:779
+msgid ""
+"Thank you for using the Smart Wishlist for WooCommerce plugin. This is the "
+"plugin settings page."
+msgstr ""
+
+#: admin/class-tesw-admin.php:783
+msgid "Smart Wishlist Settings"
+msgstr ""
+
+#: admin/class-tesw-admin.php:795
+msgid "Dark Mode"
+msgstr ""
+
+#: admin/class-tesw-admin.php:804
+msgid "Your changes have been saved."
+msgstr ""
+
+#: admin/class-tesw-admin.php:814
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-tesw-admin.php:819
+msgid "Add to Wishlist Options"
+msgstr ""
+
+#: admin/class-tesw-admin.php:824
+msgid "Wishlist Page Options"
+msgstr ""
+
+#: admin/class-tesw-admin.php:829
+msgid "Social Networks"
+msgstr ""
+
+#: admin/class-tesw-admin.php:834
+msgid "CSS Style Options"
+msgstr ""
+
+#: admin/class-tesw-admin.php:847 admin/class-tesw-admin.php:860
+#: admin/class-tesw-admin.php:873 admin/class-tesw-admin.php:886
+#: admin/class-tesw-admin.php:899
+msgid "Save Changes"
+msgstr ""
+
+#: admin/class-tesw-admin.php:906
+msgid "Invalid tab selection."
+msgstr ""
+
+#: includes/class-tesw-activator.php:34
+msgid "Wishlist"
+msgstr ""
+
+#: includes/class-tesw-activator.php:55
+msgid "Wishlist page created with ID:"
+msgstr ""
+
+#: includes/class-tesw-activator.php:66
+msgid "Wishlist page already exists with ID:"
+msgstr ""
+
+#: includes/class-tesw-deactivator.php:46
+msgid "Wishlist page has been removed."
+msgstr ""
+
+#: public/class-tesw-public.php:81
+msgid "Product removed successfully."
+msgstr ""
+
+#: public/class-tesw-public.php:82
+msgid "An error occurred while removing the product."
+msgstr ""
+
+#: public/class-tesw-public.php:83
+msgid "An error occurred while product adding."
+msgstr ""
+
+#: public/class-tesw-public.php:84
+msgid "Please select products to remove."
+msgstr ""
+
+#: public/class-tesw-public.php:85
+msgid "Please select products to add in cart."
+msgstr ""
+
+#: public/class-tesw-public.php:86
+msgid "Your wishlist is empty."
+msgstr ""
+
+#: public/class-tesw-public.php:87
+msgid "Product added to wishlist."
+msgstr ""
+
+#: public/class-tesw-public.php:88
+msgid "Unable to copy to clipboard"
+msgstr ""
+
+#: public/class-tesw-public.php:148
+msgid "View Wishlist"
+msgstr ""
+
+#: public/class-tesw-public.php:160
+msgid "Add to Wishlist"
+msgstr ""
+
+#: public/class-tesw-public.php:201
+msgid "Please add this product to your wishlist."
+msgstr ""
+
+#: public/class-tesw-public.php:202
+msgid "My Account"
+msgstr ""
+
+#: public/class-tesw-public.php:225 public/class-tesw-public.php:346
+#: public/class-tesw-public.php:468 public/class-tesw-public.php:527
+msgid "Invalid nonce."
+msgstr ""
+
+#: public/class-tesw-public.php:281 public/class-tesw-public.php:313
+msgid "Product is already added to the wishlist."
+msgstr ""
+
+#: public/class-tesw-public.php:321 public/class-tesw-public.php:391
+msgid "Invalid product ID."
+msgstr ""
+
+#: public/class-tesw-public.php:325 public/class-tesw-public.php:395
+msgid "Invalid request."
+msgstr ""
+
+#: public/class-tesw-public.php:383
+msgid "Product not found in wishlist."
+msgstr ""
+
+#: public/class-tesw-public.php:387 public/class-tesw-public.php:507
+msgid "Empty wishlist."
+msgstr ""
+
+#: public/class-tesw-public.php:473 public/class-tesw-public.php:532
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: public/class-tesw-public.php:478
+msgid "Invalid data."
+msgstr ""
+
+#: public/class-tesw-public.php:504
+msgid "Products removed successfully."
+msgstr ""
+
+#: public/class-tesw-public.php:548
+msgid "No valid product IDs provided."
+msgstr ""
+
+#: public/class-tesw-public.php:562
+msgid "Products added to cart successfully."
+msgstr ""
+
+#: public/class-tesw-public.php:600
+msgid "Select"
+msgstr ""
+
+#: public/class-tesw-public.php:601
+msgid "Product Image"
+msgstr ""
+
+#: public/class-tesw-public.php:602
+msgid "Product Name"
+msgstr ""
+
+#: public/class-tesw-public.php:603
+msgid "Price"
+msgstr ""
+
+#: public/class-tesw-public.php:620
+msgid "Product Add To Cart"
+msgstr ""
+
+#: public/class-tesw-public.php:621 public/class-tesw-public.php:687
+msgid "Action"
+msgstr ""
+
+#: public/class-tesw-public.php:677 public/class-tesw-public.php:688
+msgid "Add to Cart"
+msgstr ""
+
+#: public/class-tesw-public.php:679 public/class-tesw-public.php:689
+msgid "Remove"
+msgstr ""
+
+#: public/class-tesw-public.php:691
+msgid "Apply Action"
+msgstr ""
+
+#: public/class-tesw-public.php:695
+msgid "Your Wishlist is Empty!"
+msgstr ""
+
+#: public/class-tesw-public.php:697
+msgid "Return to Shop"
+msgstr ""
+
+#: public/class-tesw-public.php:704
+msgid "Wishlists Share on Social Networks"
+msgstr ""
+
+#: public/class-tesw-public.php:713
+msgid "Check out my wishlist: "
+msgstr ""
+
+#: public/class-tesw-public.php:763
+msgid "Wishlist link copied to clipboard!"
+msgstr ""
+
+#: public/class-tesw-public.php:808
+msgid "In Stock"
+msgstr ""
+
+#: public/class-tesw-public.php:812
+msgid "Out of Stock"
+msgstr ""
+
+#: smart-wishlist-for-woocommerce.php:86
+msgid ""
+"Smart Wishlist For WooCommerce plugin is not activated. It requires "
+"WooCommerce to work."
+msgstr ""

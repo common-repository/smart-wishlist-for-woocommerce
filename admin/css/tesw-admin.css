@@ -1,0 +1,259 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Styling for the plugin menu heart icon */
+#toplevel_page_tesw-wishlist-plugin.tesw-plugin-menu .wp-menu-image.dashicons-before.dashicons-heart::before {
+    color: orange;
+}
+
+/* Input Field */
+.tesw-input-field {
+    background-color: white;
+    color: black;
+    width: 300px;
+}
+#tesw-form-css .tesw-submit-button {
+    /* Your CSS styles here */
+    background-color: darkcyan;
+    color: #ffffff;
+    border: none;
+}
+/* Navigation Tabs */
+.tesw-nav-tab {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 8px 5px;
+    text-decoration: none;
+}
+
+.tesw-nav-tab:hover {
+    background-color: darkcyan;
+}
+
+.tesw-nav-tab.nav-tab.nav-tab-active {
+    background-color: darkcyan;
+    color: #fff;
+}
+
+/* Styling for the welcome message title */
+.tesw-welcome-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+/* Styling for the welcome message */
+.tesw-welcome-message {
+    font-size: 15px;
+    color: darkblue;
+}
+
+/* General Styling */
+.tesw-wrap .tesw-wishlist-h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+#tesw-form-css {
+    padding: 40px;
+    margin-right: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the container */
+.tesw-container {
+    background: linear-gradient(to right, #FFB6C1, #87CEFA);
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the welcome container */
+.tesw-welcome-container {
+    /* margin-top: 20px; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Animation styles for the welcome title */
+@keyframes colorAnimation {
+    0% {
+        color: orange;
+    }
+
+    25% {
+        color: darkred;
+    }
+
+    50% {
+        color: tomato;
+    }
+
+    75% {
+        color: #0000FF;
+    }
+
+    100% {
+        color: darkmagenta;
+    }
+}
+
+.tesw-welcome-title .tesw-animated-text::after {
+    content: '\2764';
+    /* Unicode for '&#10084;' */
+    animation: colorAnimation 5s infinite;
+    /* Adjust the animation duration as needed */
+}
+
+.tesw-welcome-title .tesw-animated-text {
+    animation: colorAnimation 5s infinite;
+    /* Adjust the animation duration as needed */
+}
+
+/* Styling for neon text */
+.tesw-neon-text {
+    color: orange;
+}
+
+/* Toggle Switch Styles */
+.tesw-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 8px;
+    border-radius: 30px;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.tesw-toggle-switch input[type="checkbox"] {
+    display: none;
+}
+
+.tesw-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 1px;
+    left: 1px;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    transition: .4s;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"]:checked+.tesw-toggle-slider {
+    transform: translateX(30px);
+}
+
+input[type="checkbox"]:not(:checked)+.tesw-toggle-slider {
+    transform: translateX(0);
+}
+
+input[type="checkbox"]:checked+.tesw-toggle-slider:before {
+    content: "\2665";
+    /* Unicode for heart symbol */
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    font-size: 16px;
+    color: orange;
+    transform: translateY(-50%);
+}
+
+input[type="checkbox"]:not(:checked)+.tesw-toggle-slider:before {
+    content: "";
+}
+
+input[type="checkbox"]:checked+.tesw-toggle-switch {
+    background-color: orange;
+}
+
+input[type="checkbox"]:not(:checked)+.tesw-toggle-switch {
+    background-color: #ccc;
+}
+
+/* Styles for the plugin container and toggle description */
+#tesw-plugin-container .tesw-toggle-description {
+    margin-top: 20px;
+    margin-right: 5px;
+    float: right;
+}
+
+/* Styling for the input field in dark mode */
+#tesw-plugin-container .tesw-input-field-mode {
+    background-color: white;
+    color: black;
+    width: 100px;
+}
+
+/* Styling for the toggle switch mode */
+#tesw-plugin-container .tesw-toggle-switch-mode {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    float: right;
+}
+
+#tesw-plugin-container .tesw-toggle-switch-mode input[type="checkbox"] {
+    display: none;
+}
+
+#tesw-plugin-container .tesw-toggle-label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+#tesw-plugin-container .tesw-toggle-input:checked+.tesw-toggle-label {
+    transform: translateX(30px);
+}
+
+#tesw-plugin-container .tesw-toggle-label:before {
+    content: "\1F31D";
+    /* Full moon with face icon */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+#tesw-plugin-container .tesw-toggle-input:checked+.tesw-toggle-label:before {
+    content: "\1F603";
+    /* Smiling face emoji */
+    color: black;
+}
+
+#tesw-plugin-container .tesw-toggle-input:checked+.tesw-toggle-label {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#tesw_button_color {
+    display: none;
+}
+
+#tesw_text_color_css {
+    display: none;
+}
